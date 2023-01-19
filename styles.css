@@ -1,11 +1,8 @@
 body {
-      background-color: rgb(234, 251, 201);
+    background-color: rgb(234, 251, 201);
 }
 h1 {
     text-align: center;
-}
-p {
-    color: red;
 }
 
 img {
