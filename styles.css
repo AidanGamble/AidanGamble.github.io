@@ -1,11 +1,55 @@
 body {
-    background-color: rgb(234, 251, 201);
+
+    /*Background Vectors by Vecteezy*/
+    background-image:url('Graphics/background.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
-    text-align: center;
+    text-align: left;
+}
+#logo{
+    text-align: left
+}
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 
-img {
-    margin: auto;
+ /* Add a black background color to the top navigation */
+ .topnav {
+    background-color: #42424283;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
     display: block;
-}
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #acc6a1;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  } 
