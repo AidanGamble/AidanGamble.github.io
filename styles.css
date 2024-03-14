@@ -5,22 +5,26 @@ body {
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Arial, sans-serif;
 }
 h1 {
-    text-align: left;
+  text-align: left;
 }
 #logo{
-    text-align: left
+  text-align: center
+}
+.basetext{
+  background-color: #f4f4f48c;
+  padding: 30px;
 }
 img {
     padding: 0;
-    display: block;
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
 }
 
- /* Add a black background color to the top navigation */
+ /* Add a grey background color to the top navigation */
  .topnav {
     background-color: #42424283;
     overflow: hidden;

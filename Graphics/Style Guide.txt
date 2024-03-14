@@ -1,4 +1,4 @@
 Logo font is Agency FB Bold Condensed
-Logo outline colour is acc6a1 (HTML notation)
-
+Text font is Arial, sans-serif
+Logo outline colour is #acc6a1
 aidangamblecontact@gmail.com
