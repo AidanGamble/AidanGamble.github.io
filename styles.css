@@ -10,13 +10,22 @@ body {
 h1 {
   text-align: left;
 }
+
+h2 {
+  font-size: 20;
+  font-family: Arial, sans-serif;
+  color: #f2f2f2;
+}
+
 #logo{
   text-align: center
 }
 .basetext{
   background-color: #f4f4f48c;
   padding: 30px;
+  height: 100%;
 }
+
 img {
     padding: 0;
     margin: 0 auto;
@@ -56,4 +65,7 @@ img {
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
-  } 
+  }
+
+  .imageflex { display: flex; float: left;}
+  .imageflexcontent { margin-left: 5px; margin-top: 0; }
